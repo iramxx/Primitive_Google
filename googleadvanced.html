@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Google Advanced search</title>
+    <style>
+        #Block{
+            width: 200px;
+            height: 200px;
+            position: fixed;
+            right:0px;
+            bottom: 690px;
+        }
+        #Form1{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: left;
+            width: 200px;
+            
+        }
+        #Enter{
+            background-color: blue;
+            border-radius: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form id="Form1" action="https://www.google.com/search">
+        Find the pages with:
+        <input type="text" placeholder="all these words" name="as_q">
+        <input type="text" placeholder="this exact word or phrase" name="as_epq">
+        <input type="text" placeholder="any of these words" name="as_oq">
+        <input type="text" placeholder="none of these words" name="as_eq">
+        <input id="Enter" type="submit" value="Google Advcaned Search" >
+    </form>
+    <div id="Block">
+        <a href="index.html">Go back to google normal search!</a>
+    </div>
+</body>
+</html>
